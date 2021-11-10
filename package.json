@@ -1,27 +1,15 @@
 {
-  "name": "notes",
+  "name": "Notes",
   "version": "1.0.0",
-  "description": "note taking application",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "uuid": "^8.3.2"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aubreyross/Notes.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aubreyross/Notes/issues"
-  },
-  "homepage": "https://github.com/aubreyross/Notes#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   }
 }
