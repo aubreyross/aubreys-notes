@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yargs": "^17.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/aubreyross/Notes/issues"
   },
-  "homepage": "https://github.com/aubreyross/Notes#readme"
+  "homepage": "https://github.com/aubreyross/Notes#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
